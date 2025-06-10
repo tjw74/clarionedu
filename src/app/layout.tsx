@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: "ClarionEDU - Bitcoin Education",
   description: "The world's most comprehensive Bitcoin education platform. Learn about hard money, Austrian economics, and Bitcoin from first principles.",
