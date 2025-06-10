@@ -1,7 +1,18 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
 import LessonLayout from "@/components/education/LessonLayout";
-import { getSection, getLesson } from "@/lib/content/curriculum-complete";
+import { completeCurriculum } from "@/lib/content/curriculum-complete";
+
+const getSection = (sectionId: number) => {
+  return completeCurriculum.find(section => section.id === sectionId);
+};
+
+const getLesson = (sectionId: number, lessonId: number) => {
+  const section = getSection(sectionId);
+  return section?.lessons.find(lesson => lesson.id === lessonId);
+};
 import { defaultLessonContent } from "@/lib/content/default-lessons";
 
 interface LessonTemplateProps {
