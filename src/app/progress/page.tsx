@@ -54,7 +54,7 @@ const achievements = [
 const sectionProgress = [
   {
     id: 1,
-    title: "The Problem: Fiat & Hard Money",
+            title: "The Fiat Problem & Hard Money Solution",
     completed: 3,
     total: 8,
     percentage: 37.5,

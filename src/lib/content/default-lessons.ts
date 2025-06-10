@@ -2,7 +2,7 @@ import { Lesson, Section } from './curriculum-complete';
 
 const sectionTitles = [
   "", // index 0 unused
-  "The Problem: Fiat & Hard Money",
+  "The Fiat Problem & Hard Money Solution",
   "What is Bitcoin?", 
   "Using Bitcoin",
   "Bitcoin Network & Protocol",

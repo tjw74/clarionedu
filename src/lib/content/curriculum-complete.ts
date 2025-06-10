@@ -29,7 +29,7 @@ export interface Section {
 export const completeCurriculum: Section[] = [
   {
     id: 1,
-    title: "The Problem: Fiat & Hard Money",
+    title: "The Fiat Problem & Hard Money Solution",
     description: "Understanding why Bitcoin exists and the fundamental problems it solves",
     difficulty: "Beginner",
     totalDuration: "2 hours",

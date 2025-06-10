@@ -24,7 +24,7 @@ import Link from "next/link";
 const curriculumSections = [
   {
     id: 1,
-    title: "The Problem: Fiat & Hard Money",
+    title: "The Fiat Problem & Hard Money Solution",
     description: "Understanding why Bitcoin exists and the fundamental problems it solves",
     icon: TrendingUp,
     difficulty: "Beginner",
