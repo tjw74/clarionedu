@@ -217,7 +217,7 @@ export default function Home() {
         <div className="container mx-auto text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-orange-400 to-yellow-400 bg-clip-text text-transparent">
-              Master Bitcoin
+              Learn Bitcoin
             </h2>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
               The world's most comprehensive Bitcoin education platform. 
