@@ -168,13 +168,17 @@ const curriculumSections = [
 ];
 
 const stats = [
-  { label: "Active Students", value: "12,847", icon: Users },
-  { label: "Lessons Completed", value: "248,392", icon: BookOpen },
-  { label: "Success Rate", value: "94%", icon: CheckCircle },
-  { label: "Expert Mentors", value: "127", icon: Zap }
+  { label: "Deep Understanding", value: "First Principles", icon: BookOpen },
+  { label: "Practical Skills", value: "Real-World Ready", icon: Zap },
+  { label: "Financial Sovereignty", value: "Self-Custody", icon: Shield },
+  { label: "Informed Decisions", value: "Sound Money", icon: TrendingUp }
 ];
 
 export default function Home() {
+  const scrollToCurriculum = () => {
+    document.getElementById('curriculum')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen bg-black">
       {/* Header */}
@@ -226,9 +230,7 @@ export default function Home() {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
-              <Button variant="outline" size="lg" className="px-8 py-3" onClick={() => {
-                document.getElementById('curriculum')?.scrollIntoView({ behavior: 'smooth' });
-              }}>
+              <Button variant="outline" size="lg" className="px-8 py-3" onClick={scrollToCurriculum}>
                 View Curriculum
               </Button>
             </div>
